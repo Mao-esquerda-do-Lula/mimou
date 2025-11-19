@@ -1,30 +1,41 @@
-# mimou
+# mimou?
 1. Descrição Geral
 
-O projeto refere-se ao desenvolvimento de um sistema web responsivo destinado à comercialização e envio de presentes, com foco em produtos voltados para ocasiões românticas. A plataforma permitirá que o usuário acesse o catálogo de itens disponíveis, selecione os produtos desejados, adicione-os ao carrinho e realize a compra de maneira segura e organizada.
+O Mimou é um sistema web responsivo desenvolvido para romanticos. A plataforma facilita a comercialização e o envio de presentes para aquelas ocasiões em que flores e chocolates já não bastam — ou quando você simplesmente esqueceu a data importante e precisa resolver isso rapidamente.
 
-O sistema será estruturado em dois ambientes principais: a interface do usuário, responsável pela navegação, seleção de produtos e finalização da compra; e o painel administrativo, destinado ao gerenciamento de estoque, acompanhamento de vendas e registro de movimentações internas. Todo o processo de compra incluirá a opção de definir o endereço de entrega da pessoa que receberá o presente, garantindo cuidado e atenção adequados ao caráter afetivo da proposta.
+O sistema opera em dois ambientes: a interface do usuário, onde o romance acontece (catálogo, carrinho e checkout); e o painel administrativo, onde a magia é gerenciada (estoque, vendas e logística). Tudo isso com a opção de enviar diretamente para o endereço da pessoa amada, porque entregar presentes pessoalmente requer coragem.
 
-2. Funcionalidades
+## 2. Funcionalidades
 
-2.1. Módulo do Usuário
+### 2.1. Módulo do Usuário
 
-O módulo do usuário permitirá o acesso ao catálogo de presentes disponíveis, com informações detalhadas sobre cada item. O comprador poderá adicionar produtos ao carrinho, definir quantidades e prosseguir para a etapa de pagamento. Após a confirmação, será possível indicar o endereço de entrega do destinatário, assegurando discrição e sensibilidade no envio. O sistema adotará um fluxo simples e intuitivo para facilitar a experiência de navegação.
+Aqui é onde o apaixonado (ou o desesperado) navega pelo catálogo, escolhe presentes com informações detalhadas e adiciona tudo ao carrinho. O processo de checkout é simples e direto — afinal, ninguém quer complicação quando está tentando impressionar alguém. Após a confirmação do pagamento, basta informar o endereço de entrega e pronto: o Cupido moderno fez sua parte.
 
-2.2. Módulo Administrativo
+### 2.2. Módulo Administrativo
 
-O módulo administrativo será acessado mediante autenticação e permitirá o controle completo dos produtos cadastrados. Serão disponibilizadas funcionalidades para inclusão, edição e exclusão de itens, além de registro automático de entrada e saída de produtos. O controle de estoque ocorrerá em tempo real, com emissão de alertas quando níveis mínimos forem atingidos. O sistema também proporcionará consultas ao histórico de movimentações e relatórios de vendas, de modo a apoiar a gestão operacional da loja.
+O painel administrativo é protegido por autenticação (porque nem todo mundo pode saber quantos ursinhos de pelúcia você tem em estoque). Oferece controle total sobre o cadastro de produtos, com registro automático de entrada e saída, alertas de estoque mínimo e relatórios de vendas. Basicamente, é o QG operacional para manter o amor (e o lucro) fluindo.
 
-3. Tecnologias e Recursos
+## 3. Tecnologias e Recursos
 
+**Front-end:**
+- HTML5 e CSS — porque até presentes românticos merecem uma interface bonita e responsiva.
 
-O sistema utiliza HTML5 e CSS para a construção de toda a interface visual, garantindo responsividade, padronização e boa experiência de navegação. O back-end é desenvolvido em Python, estruturado com o uso de frameworks adequados, como Django ou Flask, para assegurar organização, segurança e eficiência no processamento das funcionalidades.
+**Back-end:**
+- Python com Django ou Flask — frameworks sérios para um negócio que leva sentimentos a sério.
 
+**Banco de Dados:**
+- MySQL ou PostgreSQL — relacionamentos bem estruturados, tanto no código quanto na vida.
 
-O armazenamento de dados é realizado em banco de dados relacional, estruturado em MySQL ou PostgreSQL, proporcionando confiabilidade e desempenho. A autenticação é executada por meio de JSON Web Token (JWT), garantindo segurança no acesso e proteção das informações.
-A plataforma opera em ambiente de hospedagem em nuvem, utilizando serviços como AWS ou Azure, que fornecem estabilidade, escalabilidade e disponibilidade contínua.
+**Autenticação:**
+- JSON Web Token (JWT) — protegendo dados sensíveis com a mesma dedicação de quem guarda cartas de amor.
 
+**Hospedagem:**
+- AWS ou Azure — infraestrutura em nuvem para garantir que o sistema esteja sempre disponível, porque amor não tem hora para acontecer.
 
-4. Objetivo Geral
+## 4. Objetivo Geral
 
-O objetivo do sistema consiste em oferecer uma plataforma completa e funcional para a compra e envio de presentes românticos, assegurando ao usuário uma experiência simples, elegante e segura. Simultaneamente, o projeto visa proporcionar à administração da loja ferramentas eficientes para gestão de estoque e monitoramento de vendas, contribuindo para a organização e o crescimento sustentável do negócio.
+O **Mimou** visa oferecer uma solução completa para quem deseja expressar afeto através de presentes, eliminando o estresse da compra e entrega. Para os usuários: simplicidade, elegância e segurança. Para os administradores: gestão eficiente de estoque e vendas. Para todos: menos desculpas esfarrapadas e mais demonstrações de carinho.
+
+---
+
+**Observação técnica:** Este projeto foi desenvolvido com carinho (e muito café). Bugs românticos não inclusos na garantia.
