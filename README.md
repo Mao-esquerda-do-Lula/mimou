@@ -1,5 +1,5 @@
 # mimou?
-1. Descrição Geral
+###1. Descrição Geral
 
 O Mimou é um sistema web responsivo desenvolvido para romanticos. A plataforma facilita a comercialização e o envio de presentes para aquelas ocasiões em que flores e chocolates já não bastam — ou quando você simplesmente esqueceu a data importante e precisa resolver isso rapidamente.
 
