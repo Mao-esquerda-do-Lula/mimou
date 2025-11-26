@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mimou - Presentes de Namoro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Tela de Autenticação -->
+        <div class="auth-screen" id="authScreen">
+            <img src="images/Logo.png" alt="">
+            <h1>Mimou</h1>
+            <p class="subtitle">Presentes que fazem o coração bater mais forte</p>
+            
+            <form id="authForm">
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required placeholder="seu@email.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" required placeholder="••••••••">
+                </div>
+                
+                <div class="form-group hidden" id="confirmPasswordGroup">
+                    <label for="confirmPassword">Confirmar Senha</label>
+                    <input type="password" id="confirmPassword" placeholder="••••••••">
+                </div>
+                
+                <button type="submit" class="btn" id="authBtn">Entrar</button>
+            </form>
+            
+            <div class="toggle-auth">
+                <span id="toggleText">Não tem conta?</span>
+                <a href="#" id="toggleLink">Cadastre-se</a>
+            </div>
+        </div>
+
+        <!-- Tela Principal -->
+        <div class="main-screen" id="mainScreen">
+            <div class="header">
+                <h2 class="welcome">Bem-vindo ao Mimou! 💕</h2>
+                <div class="header-buttons">
+                    <button class="cart-btn" id="cartBtn">
+                        🛒 Carrinho (<span id="cartCount">0</span>)
+                    </button>
+                    <button class="logout-btn" id="logoutBtn">Sair</button>
+                </div>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
+                <!-- Produtos serão inseridos aqui via JavaScript -->
+            </div>
+        </div>
+
+        <!-- Tela do Carrinho -->
+        <div class="cart-screen" id="cartScreen">
+            <div class="header">
+                <h2 class="welcome">Meu Carrinho 🛒</h2>
+                <button class="back-btn" id="backBtn">Voltar às Compras</button>
+            </div>
+
+            <div class="cart-content">
+                <div class="cart-items" id="cartItems">
+                    <!-- Itens do carrinho serão inseridos aqui -->
+                </div>
+
+                <div class="cart-summary">
+                    <h3>Resumo do Pedido</h3>
+                    <div class="summary-line">
+                        <span>Total de Itens:</span>
+                        <span id="totalItems">0</span>
+                    </div>
+                    <div class="summary-line total">
+                        <span>Total:</span>
+                        <span id="totalPrice">R$ 0,00</span>
+                    </div>
+                    <button class="finalize-btn" id="finalizeBtn">Finalizar Compra</button>
+                </div>
+            </div>
+
+            <div class="empty-cart" id="emptyCart">
+                <p>Seu carrinho está vazio 😢</p>
+                <button class="back-btn" onclick="showMainScreen()">Continuar Comprando</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
